@@ -20,13 +20,18 @@ var arrayObj = [
 ];
 
 console.log(arrayObj);
+
+var newArray = arrayObj;
+
+/* OPPURE FACENDO
 var newArray = [];
 
 for (var i of arrayObj) {
   newArray.push(i);
 }
+*/
 
-console.log(newArray);
+
 
 
 for (var i = 0; i < newArray.length; i++) {
@@ -34,7 +39,7 @@ for (var i = 0; i < newArray.length; i++) {
   newArray[i].position = numeroRandom;
 }
 
-
+console.log(newArray);
 
 
 //funzioni generiche:
